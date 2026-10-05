@@ -6,13 +6,13 @@
 
 // 判断 C++ 标准版本
 #if defined(_MSVC_LANG)
-	#define CPP_STD _MSVC_LANG
+#define CPP_STD _MSVC_LANG
 #else
-	#define CPP_STD __cplusplus
+#define CPP_STD __cplusplus
 #endif
 
 #if CPP_STD >= 202002L
-	#include <bit>
+#include <bit>
 #endif
 
 //原理讲解链接
