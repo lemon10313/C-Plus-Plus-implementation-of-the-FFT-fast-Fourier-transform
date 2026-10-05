@@ -4,6 +4,6 @@
 #include <vector>
 
 template<typename T>
-std::vector<T> Compute_convolution(std::vector<T>a,std::vector<T>b);
+std::vector<T> FFT_solution(std::vector<T>a,std::vector<T>b);
 
 #endif //__FFT_H_
